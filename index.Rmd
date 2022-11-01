@@ -17,4 +17,6 @@ Click [About](about.html) to see Jasmine's resume. Feel free to contact Jasmine 
 
 
 
-## Dashboard:
+## The Instacart Dashboard
+
+I made a dashboard about orders on Instacart, including a boxplot, a bar plot and a scatterplot. I'm interested in the relationship among types of products, the order hours of a day, the order days of a week, and the days since prior order in the department "dairy eggs." For more details please refer to [Dashboard](dashboard.html).
