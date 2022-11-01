@@ -1,0 +1,90 @@
+---
+title: "About Jasmine Niu"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Education
+
+
+**Columbia University, Mailman School of Public Health**
+
+_Master of Science Biostatistics_
+
+Sep 2022-
+
+New York, USA
+
+
+**National Taiwan University (NTU), College of Public Health**
+
+_Master of Health Behaviors and Community Sciences_
+
+Sep 2016 – Jan 2019
+
+Taipei, Taiwan
+
+
+**National Taiwan University (NTU), College of Bioresources and Agriculture**
+
+_Bachelor of Bio-Industry Communication and Development_
+
+Sep 2012 – Jun 2016
+
+Taipei, Taiwan
+
+
+
+
+
+## Work Exprience
+
+
+**Child Health Research Center, Institute of Population Health Sciences, National Health Research Institutes**
+
+_Research Assistant_
+
+Apr 2019 - Jul 2022
+
+Taiwan
+
+
+**NTU College of Public Health**
+
+_Teaching Assistant, Research Assistant_
+
+Feb 2017 - Jun 2018
+
+
+
+
+## Publications
+
+
+**Perceived Causes of Cancer and Corresponding Behavioral Changes: A Qualitative Study on Breast Cancer Survivors in Taiwan**
+
+Original research article on _Cancer Control_
+
+Oct 3, 2022
+
+[Link](https://journals.sagepub.com/doi/10.1177/10732748221132522)
+
+
+**Internet Addiction: Reassessing Technology Use**
+
+_Taida Student Journal_
+
+2016
+
+[Link](https://taidajournal.tumblr.com/post/144141386499/internet-addiction-reassessing-technology-use)
+
+
+**An Introduction to Skinny Fat**
+
+_Taida Student Journal_
+
+2015
+
+[Link](https://taidajournal.tumblr.com/post/132110632401/an-introduction-to-skinny-fat)
