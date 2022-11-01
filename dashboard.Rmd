@@ -1,0 +1,77 @@
+---
+title: "Instacart Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(flexdashboard)
+library(plotly)
+```
+
+
+```{r, include=FALSE}
+data("instacart")
+
+instacart =
+  instacart %>% 
+  mutate(
+    order_dow = order_dow + 1
+  ) %>% 
+  select(
+    department, aisle, order_dow, order_hour_of_day, reordered, days_since_prior_order  
+  ) %>% 
+  filter(
+    department == "dairy eggs",
+    order_dow == 1:5,
+    days_since_prior_order == 5:25
+  ) %>% 
+  drop_na()
+```
+
+
+Column {data-width=550}
+-----------------------------------------------------------------------
+
+### Boxplot
+
+```{r}
+instacart %>%  
+  mutate(aisle = fct_reorder(aisle, days_since_prior_order)) %>% 
+  plot_ly(
+    y = ~days_since_prior_order, color = ~aisle,
+    type = "box", colors = "viridis"
+  )
+```
+
+Column {data-width=450}
+-----------------------------------------------------------------------
+
+### Bar plot
+
+```{r}
+instacart %>% 
+  count(aisle) %>% 
+  mutate(aisle = fct_reorder(aisle, n)) %>%
+  plot_ly(
+    x = ~aisle, y = ~n, color = ~aisle,
+    type = "bar", colors = "viridis")
+```
+
+### Scatterplot
+
+```{r}
+instacart %>% 
+  mutate(
+    text_label = str_c("Aisle: ", aisle)
+  ) %>%
+  plot_ly(
+    x = ~order_hour_of_day, y = ~days_since_prior_order, color = ~order_dow,
+    type = "scatter", mode = "markers", alpha = .5, text = ~text_label
+  )
+```
+

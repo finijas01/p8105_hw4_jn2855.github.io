@@ -13,3 +13,8 @@ This is Jasmine Niu's personal website for P8105. Jasmine finished most of her f
 Click [About](about.html) to see Jasmine's resume. Feel free to contact Jasmine through email and Linkedin via the links on the navigation bar.
 
 ![](images/20220904_185048.jpg)
+(Photo credit to Jasmine Niu)
+
+
+
+## Dashboard:
